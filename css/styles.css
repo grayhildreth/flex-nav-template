@@ -17,11 +17,7 @@ body {
   top: 0;
   z-index: 9000;
   width: 100%;
-  background-color: white;
-  border-bottom: 1px solid #ddd;
-  /*
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
-  */
+  background-color: #d8ffdf;
 }
 
 #nav-container {
@@ -57,9 +53,6 @@ body {
   color: #444;
   text-decoration: none;
 }
-#nav-logo:hover {
-  color: #666;
-}
 
 .nav-ul {
   display: -webkit-box;
@@ -83,18 +76,6 @@ body {
   flex: 1;
   color: #444;
   text-decoration: none;
-  font-weight: 600;
-  font-size: 1.2rem;
-  -webkit-transition: 200ms;
-  transition: 200ms;
-}
-
-.nav-link:hover {
-  background-color: #f1f1f1;
-}
-
-.active-link {
-  background-color: #f1f1f1;
 }
 
 /* END NAVIGATION */
@@ -114,7 +95,6 @@ body {
 
   #nav-menu-button {
     padding: 1rem;
-    background-color: #f1f1f1;
     cursor: pointer;
   }
 
